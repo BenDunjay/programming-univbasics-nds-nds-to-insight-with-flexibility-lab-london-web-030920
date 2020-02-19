@@ -88,8 +88,8 @@ end
 
 
 def movies_with_directors_set(source)
-    directors_array = []               # creating an array to push the hashes into 
-    directors_movies_array = []        # creating an array to push the titles into
+    directors_array = []               # creating an array to push the everything into 
+    directors_movies_array = {}        # creating a hash to push the titles and name into
     director_index = 0                 # an index of the directors and movies to run through
     
  
