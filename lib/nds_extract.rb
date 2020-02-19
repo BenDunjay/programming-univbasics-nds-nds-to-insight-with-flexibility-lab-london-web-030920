@@ -91,7 +91,7 @@ def movies_with_directors_set(source)
      movie_film_index+=1
    end 
    
-   
+   movie_director_array.push(movie_array)
    movie_director_index+=1
    
  end 
