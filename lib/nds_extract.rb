@@ -90,7 +90,11 @@ end
 def movies_with_directors_set(source)
     directors_array = []               # creating an array to push the hashes into 
     directors_movies_array = []
-
+#     director_index = 0                 # an index of the directors and movies to run through
+    
+ 
+# while director_index < source.length do 
+#     director_name = source[director_index]     # creating a variable holding full details of each source index
     directors_movies_index = 0 
     
 
@@ -102,8 +106,8 @@ end
 
     
    
-    director_index +=1 
- end
+#     director_index +=1 
+# end
  
  
  
