@@ -89,7 +89,7 @@ end
 
 def movies_with_directors_set(source)
     directors_array = []               # creating an array to push the hashes into 
-    directors_movies_array = []
+    directors_movies_array = []        # creating an array to push the titles into
     director_index = 0                 # an index of the directors and movies to run through
     
  
@@ -100,7 +100,7 @@ def movies_with_directors_set(source)
 
     
 while directors_movies_index < director_name[:movies].length do   
-  directors_movies_array.push(director_name[:movies][directors_movies_index])
+  directors_movies_array.push(director_name[:movies])
   directors_movies_index +=1 
 end 
 
