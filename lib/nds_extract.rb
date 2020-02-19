@@ -92,7 +92,7 @@ def movies_with_directors_set(source)
    end 
    
    
-   movie_index+=1
+   movie_director_index+=1
    
  end 
  
