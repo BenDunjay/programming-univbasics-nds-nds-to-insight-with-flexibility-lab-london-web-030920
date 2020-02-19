@@ -101,7 +101,7 @@ def movies_with_directors_set(source)
 
     
 while directors_movies_index < director_name[:movies].length do    #looping through each source index movies and pushing the movies                                                                    to an array.
-  directors_movies_array.push(director_name[:movies])
+  directors_movies_array[director_index].push(director_name[:movies])
   directors_movies_index +=1 
 end 
 
