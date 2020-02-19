@@ -88,26 +88,9 @@ end
 
 
 def movies_with_directors_set(source)
-    directors_array = []               # creating an array to push the everything into 
-    directors_movies_array = {}        # creating a hash to push the titles and name into
-    director_index = 0                 # an index of the directors and movies to run through
-    
  
- while director_index < source.length do 
-    director_name = source[director_index]     # creating a variable holding full details of each source index
-    directors_movies_index = 0 
-    directors_array.push(director_name[:name])
-    
-
-    
-while directors_movies_index < director_name[:movies].length do    #looping through each source index movies and pushing the movies                                                                    to an array.
-  directors_movies_array.push(director_name[:movies][director_index])
-  directors_movies_index +=1 
-end 
-
-    directors_array.push(directors_movies_array)
-   
-    director_index +=1 
+ 
+ 
  end
  
  
