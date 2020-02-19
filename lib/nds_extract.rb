@@ -45,7 +45,7 @@ def movies_with_director_key(name, movies_collection)
 end
 
 directors_array
-
+binding.pry
 
 end
 
@@ -84,6 +84,8 @@ def movies_with_directors_set(source)
    movie_director_array.push(movie_director[:name])
    movie_film_index = 0 
    
+   
+   
    while movie_film_index < movie_director[:movies].length do 
      movie_director_array.push(movie_director[:movies])
      
@@ -94,7 +96,7 @@ def movies_with_directors_set(source)
    movie_director_index+=1
    
  end 
-binding.pry
+
  
 end
   #
