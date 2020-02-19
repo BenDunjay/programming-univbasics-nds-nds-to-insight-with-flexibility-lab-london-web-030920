@@ -82,12 +82,13 @@ def movies_with_directors_set(source)
  while movie_director_index < source.length do
     movie_director = source[movie_director_index][:name]
     movies_collection = source[movie_director_index][:movies]
-   movie_film_index = 0 
-   
+  
+  movie_director_array << movies_with_director_key(movie_director, movies_collection) 
    movie_director_index+=1
    
  end 
 
+movie_director_array
  
 end
   #
