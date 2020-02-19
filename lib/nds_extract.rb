@@ -94,9 +94,7 @@ def movies_with_directors_set(source)
    movie_director_index+=1
    
  end 
- 
- 
- binding.pry
+
  
 end
   #
