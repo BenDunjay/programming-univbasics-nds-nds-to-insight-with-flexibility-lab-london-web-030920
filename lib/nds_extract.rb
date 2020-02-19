@@ -76,6 +76,16 @@ end
 
 
 def movies_with_directors_set(source)
+ movie_array = []
+ movie_director_array = []
+ movie_index = 0 
+ 
+ while movie_index < source.length do
+   movie_array.push(movie_director)
+   movie_director = source[movie_index[:name]]
+   movie_index+=1
+ end 
+ 
  
  binding.pry
  
