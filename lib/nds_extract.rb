@@ -76,7 +76,6 @@ end
 
 
 def movies_with_directors_set(source)
- movie_array = []
  movie_director_array = []
  movie_director_index = 0 
  
