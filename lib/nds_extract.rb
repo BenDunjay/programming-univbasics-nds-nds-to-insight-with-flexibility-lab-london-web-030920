@@ -81,8 +81,8 @@ def movies_with_directors_set(source)
  movie_index = 0 
  
  while movie_index < source.length do
+    movie_director = source[movie_index]
    movie_array.push(movie_director[:name])
-   movie_director = source[movie_index]
    movie_index+=1
  end 
  
