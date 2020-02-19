@@ -93,7 +93,7 @@ def movies_with_directors_set(source)
     
  
  while director_index < source.length do 
-   director_name = source[movie_index]
+   director_name = source[director_index]
    
     director_index +=1 
  end
