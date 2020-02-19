@@ -94,7 +94,7 @@ def movies_with_directors_set(source)
  
  while director_index < source.length do 
    director_name = source[director_index]     # creating a variable holding full details of each source index
-   director_name[name] = director_name[:name] 
+   directors_movies.push(directors_name)
    
     director_index +=1 
  end
